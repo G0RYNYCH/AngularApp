@@ -29,3 +29,11 @@ let people: {
   name: string;
   age: number;
 }[];
+
+//type inference
+let course = 'Angular guide';
+//course = 123;
+
+//union types
+let courses: string | number = `courses`;
+courses = 123;//no error!
